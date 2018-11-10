@@ -1,0 +1,132 @@
+*{
+	font-family: 'PT Sans Narrow', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: rgb(250,248,245);
+
+}
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+}
+.wrapper{
+	margin: 25px auto;
+	width: 1000px;
+}
+.logo{
+	padding: 12px 10px;
+	float: left;
+}
+ul{
+	float: right;
+	margin-right: 60px;
+}
+ul li{
+	list-style: none;
+	display: inline-block;
+	float: left;
+	line-height: 60px;
+}
+ul li a{
+	text-decoration: none;
+	padding: 0 20px;
+	color: rgb(254,157,91);
+	font-size: 17px;
+	font-style: bold;
+	display: block;
+}
+#logo{
+	width: 140px;
+	height: auto;
+}
+#read_button{
+	background-image: url(../img/demo2-readbutton.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	width: 75px;
+	color: white;
+	text-align: center;
+}
+#n1{
+	font-family: arial;
+	color: rgb(254,157,91);
+	text-align: center;
+	font-size: 13px;
+}
+#n2{
+	color: rgb(183,183,183);
+	text-align: center;
+	font-size: 16px;
+}
+.front_h1{
+	text-align: center;
+}
+.front_bg{
+	width: 1000px;
+	height: 400px;
+	background-image: url(../img/demo2_background1.png);
+	background-size: 110%;
+	background-position: center;
+}
+.lists_left{
+	padding: 45px 0 0 30px;
+	float: left;
+}
+.lists_right{
+	padding: 45px 30px 0 0;
+	float: right;
+}
+.list_box{
+	margin: 10px 0;
+	padding: 20px 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	width: 250px;
+	height: auto;
+}
+.list_content{
+	display: inline-block;
+}
+.list_num{
+	color: rgb(255,204,39);
+	width: 20%;
+	text-align: center;
+}
+.list_discription{
+	color: rgb(183,183,183);
+	padding-left: 10px;
+	text-align: center;
+}
+.list_hover{
+	width: 15px;
+	height: 15px;
+	padding: 0 0 0 55px;
+}
+.list_box:hover{
+	margin: 10px 0;
+	padding: 20px 20px;
+	background-color: #fff;
+	border-radius: 5px;
+	width: 250px;
+	height: auto;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.25);
+}
+.list_box:hover:after{
+
+}
+
+.list_version{
+	color: rgb(183,183,183);
+	padding-left: 10px;
+	font-size: 13px;
+}
+h3{
+	padding: 0;
+	margin: 0;
+}
